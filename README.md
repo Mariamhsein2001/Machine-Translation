@@ -32,7 +32,6 @@ The `translator` folder is the backbone of our translation system, handling the 
   1.  **model.py**: Defines the `Translator` class with model loading and translation functions.
   2.  **model_bidirectional.h5** : the model weights and architecture
   3.  **tokenzier** : the english and french tokenizer
-- 
 
 #### 📱 Flask Web Application
 
