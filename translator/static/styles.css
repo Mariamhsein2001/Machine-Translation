@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ece9e9;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.translator-container {
+    background-color: #333333;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language-selection, #input-text, #output-text {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.language-selection select, #input-text, #output-text {
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+#input-text, #output-text {
+    height: 100px;
+    resize: none;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+#translate-button {
+    background-color: #444444;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 20px 0;
+    align-self: center;
+}
+
+#translate-button:hover {
+    background-color: #555555;
+}
+
+.translation {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 100px;
+}
