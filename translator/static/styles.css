@@ -10,7 +10,7 @@ body {
 }
 
 .translator-container {
-    background-color: #333333;
+    background-color:#010a2e;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
@@ -26,7 +26,7 @@ body {
 }
 
 .language-selection select, #input-text, #output-text {
-    background-color: #444444;
+    background-color: #282e44;
     color: #ffffff;
     border: none;
     padding: 10px;
@@ -38,7 +38,10 @@ body {
     height: 100px;
     resize: none;
 }
-
+h1 {
+    text-align: center;
+    color: #ffffff;
+}
 form {
     display: flex;
     flex-direction: column;
@@ -47,11 +50,11 @@ form {
 }
 
 #translate-button {
-    background-color: #444444;
+    background-color: #6f7898;
     color: #ffffff;
     border: none;
     padding: 10px 20px;
-    border-radius: 5px;
+    border-radius:25px;
     font-size: 16px;
     cursor: pointer;
     margin: 20px 0;
@@ -59,7 +62,7 @@ form {
 }
 
 #translate-button:hover {
-    background-color: #555555;
+    background-color: #8e94aa;
 }
 
 .translation {
